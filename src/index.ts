@@ -47,6 +47,7 @@ let vendedor3 :string [] = ["Sofía"]
 let vendedor4 :string [] = ["Matías"]
 let vendedor5 :string [] = ["Agustina"]
 
+
 function obtenerMaximaVentaSemanal(arreglo1:number[], longitud:number, primerMes: string[])
   let max:number = 0;
   let primerMes : string = ""; 
@@ -108,3 +109,81 @@ function obtenerMaximaVentaSemanal(arreglo1:number[], longitud:number, primerMes
 
 
       //3- su promedio trimestral de ventas.
+      function obtenerPromedioTrimestral(arreglo1 : number[], longitud: number) : number {
+        let sumatotal : number = 0; 
+        let promedio1 : number = 0; 
+        let vendedor1 :string [] = ["Camila"]
+  
+        for (indice = 0; indice <longitud; indice ++){
+          sumaTotal += arreglo1 [indice]; 
+  
+        }
+        promedio1 = sumaTotal/longitud; 
+    return promedio1
+  }
+  
+console.log("El promedio trimestral de ventas de " + vendedor1 "fue " +promedio1;
+
+
+function obtenerPromedioTrimestral(arreglo2 : number[], longitud: number) : number {
+  let sumatotal : number = 0; 
+  let promedio2 : number = 0; 
+  let vendedor2 :string [] = ["Franco"]
+
+  for (indice = 0; indice <longitud; indice ++){
+    sumaTotal += arreglo2 [indice]; 
+
+  }
+  promedio2 = sumaTotal/longitud; 
+return promedio2
+}
+
+
+console.log("El promedio trimestral de ventas de " + vendedor2 "fue " +promedio2;
+
+function obtenerPromedioTrimestral(arreglo3 : number[], longitud: number) : number {
+  let sumatotal : number = 0; 
+  let promedio3 : number = 0; 
+  let vendedor3 :string [] = ["Sofía"]
+
+  for (indice = 0; indice <longitud; indice ++){
+    sumaTotal += arreglo3 [indice]; 
+
+  }
+  promedio3 = sumaTotal/longitud; 
+return promedio3
+}
+
+console.log("El promedio trimestral de ventas de " + vendedor3 "fue " +promedio3;
+
+
+function obtenerPromedioTrimestral(arreglo4 : number[], longitud: number) : number {
+  let sumatotal : number = 0; 
+  let promedio4 : number = 0; 
+  let vendedor4 :string [] = ["Matías"]
+
+  for (indice = 0; indice <longitud; indice ++){
+    sumaTotal += arreglo4 [indice]; 
+
+  }
+  promedio4 = sumaTotal/longitud; 
+return promedio4
+}
+
+console.log("El promedio trimestral de ventas de " + vendedor4 "fue " +promedio1;
+
+
+function obtenerPromedioTrimestral(arreglo5 : number[], longitud: number) : number {
+  let sumatotal : number = 0; 
+  let promedio5 : number = 0; 
+  let vendedor5 :string [] = ["Agustina"]
+
+  for (indice = 0; indice <longitud; indice ++){
+    sumaTotal += arreglo5 [indice]; 
+
+  }
+  promedio5 = sumaTotal/longitud; 
+return promedio5
+}
+
+console.log("El promedio trimestral de ventas de " + vendedor5 "fue " +promedio1;
